@@ -89,6 +89,36 @@ Una vez la configuracion finalice ya podriamos ver la interfaz de usuario  de nu
 
 <img width="910" alt="image" src="https://github.com/FranciscoFerreiraT/ExamenDocker/assets/92456485/c3366998-892f-4d94-820a-39c731a2e5bf">
 
+### Interfaz administrador
+
+Por razones de seguridad tenemso que hacer algunas modificaciones en nuestro volumen
+
+<img width="587" alt="image" src="https://github.com/FranciscoFerreiraT/ExamenDocker/assets/92456485/96956ccd-7040-4d7d-b115-1e21b467fc7d">
+
+#### Modificaciones
+çLo primero es entrar en nuestro volumen de prestashop
+
+<img width="818" alt="image" src="https://github.com/FranciscoFerreiraT/ExamenDocker/assets/92456485/16cfa237-c6c7-407f-b207-6e7cd5e13361">
+
+Y eliminar la carpeta install 
+
+<img width="342" alt="image" src="https://github.com/FranciscoFerreiraT/ExamenDocker/assets/92456485/97b795b1-95cb-4357-83d5-1e4c7100a965">
+
+Y luego renombrar la carpeta admin a la que nos decia prestashop
+
+<img width="551" alt="image" src="https://github.com/FranciscoFerreiraT/ExamenDocker/assets/92456485/9e45c448-e0f3-432d-9924-e687fb523ebc">
+
+Una vez hecho esto ya podriamos acceder a nuestra interfaz de adminstrador
+
+<img width="699" alt="image" src="https://github.com/FranciscoFerreiraT/ExamenDocker/assets/92456485/fbf041a0-8cd4-4c3e-9ffd-d62fa287e28a">
+
+Y aqui tendriamos una vista de nuestra interfaz administrador con nuestro unario logeado
+
+<img width="1231" alt="image" src="https://github.com/FranciscoFerreiraT/ExamenDocker/assets/92456485/a86a64f5-583d-4a79-af71-c2361cd35e6b">
+
+
+
+
 
 
 
