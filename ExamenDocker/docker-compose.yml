@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  prestashop:
+    image: prestashop/prestashop
+    ports:
+      - "8080:80"
+    environment:
+      - PS_DOMAIN=localhost
+      - DB_SERVER=db
+      - DB_NAME=prestashop
+      - DB_USER=root
+      - DB_PASSWD=root
+    networks:
+      - prestashop-network
+
+  db:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=prestashop
+    volumes:
+      - prestashop-db-data:/var/lib/mysql
+    networks:
+      - prestashop-network
+
+networks:
+  prestashop-network:
+
+volumes:
+  prestashop-db-data:
